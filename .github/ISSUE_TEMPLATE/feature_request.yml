@@ -1,0 +1,25 @@
+name: Feature request / Улучшение
+description: Предложение новой возможности
+title: "feat: "
+body:
+  - type: textarea
+    id: user_problem
+    attributes:
+      label: Проблема или потребность
+      description: Какую проблему пользователя решаем?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Предлагаемое решение
+      description: Что пользователь сможет сделать после реализации?
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Как оценим результат?
+      description: Критерий принятия или демонстрационный сценарий.
+    validations:
+      required: false

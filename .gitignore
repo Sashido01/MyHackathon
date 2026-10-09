@@ -1,0 +1,50 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript / TypeScript
+node_modules/
+.npm/
+.pnpm-store/
+.next/
+
+# Build products and logs
+build/
+dist/
+coverage/
+htmlcov/
+*.log
+*.tmp
+.cache/
+
+# Local data stores
+*.sqlite
+*.sqlite3
+*.db
+
+# Common temporary files
+*.bak
+*.orig
