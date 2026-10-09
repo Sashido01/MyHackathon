@@ -1,0 +1,33 @@
+name: Bug report / Ошибка
+description: Воспроизводимый дефект в реализации
+title: "fix: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что произошло?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как воспроизвести
+      placeholder: Шаг 1, шаг 2, шаг 3...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Окружение и версия
+      placeholder: ОС, версия приложения, браузер (если применимо)
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "Не размещайте здесь приватные ключи, персональные данные или подробности эксплуатации уязвимости — см. SECURITY.md."
